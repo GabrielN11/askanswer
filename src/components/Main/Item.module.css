@@ -1,0 +1,20 @@
+.item{
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    min-height: 80px;
+    height: fit-content;
+    transition: all 1s;
+}
+
+.item h2, p{
+    display: block;
+    margin: 0;
+}
+
+.item:hover{
+    border: 1px solid #111;
+}

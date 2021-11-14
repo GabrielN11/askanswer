@@ -1,0 +1,17 @@
+.question{
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: .5px solid lightgray;
+}
+
+.question h1{
+    font-weight: normal;
+    font-family: monospace;
+}
+
+.user{
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 10px;
+}

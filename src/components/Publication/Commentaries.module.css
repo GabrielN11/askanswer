@@ -1,0 +1,14 @@
+.empty{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.commentaries{
+    display: flex;
+    flex-direction: column;
+}
+
+.commentaries h2{
+    font-weight: normal;
+}

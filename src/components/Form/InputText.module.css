@@ -1,0 +1,33 @@
+.label{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.label input{
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.label input:focus{
+    outline: none;
+    border: 1px solid grey;
+    background-color: #eee;
+}
+
+.label p{
+    color: brown;
+    margin: 0;
+    margin-top: 3px;
+}
+
+@media screen and (max-width: 600px) {
+    .label{
+        width: 250px;
+    }
+}
